@@ -155,10 +155,13 @@ border-radius: 200px;
   #gameList{
     display: flex;
     color: #fff;
+
   
   }
   .card{
     padding: 10px;
+    border: 1px solid rgb(4, 4, 95);
+    
     
    
   }
@@ -167,5 +170,124 @@ border-radius: 200px;
     font-size: 30px;
     color: #ec8ff5;
   }
-  
+  #gamesdiv{
+    display: flex;
+    overflow: auto;
+  }
+  #gamesdiv::-webkit-scrollbar{
+    width: 0;
 
+  }
+  #gamesdiv #gameList{
+
+  }
+  footer{
+    padding: 10px 100px;
+    background-color: #000b16;
+  }
+  footer .footerdetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer .footerdetails #textlogo{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 700;
+  }
+  footer .footerdetails p{
+color: #dbd9db;
+  }
+  footer .footerdetails ul{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  footer .footerdetails ul li{
+    list-style: none;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1aeeef;
+
+
+
+  }
+  footer .footerdetails ul li:hover{
+    background: #1aeeef;
+    border: none;
+  }
+  footer .footerdetails ul li a i{
+    font-size: 1.5em;
+    color: #fff;
+  }
+  #contact{
+    position: relative;
+    min-height: 40vh;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(https://img.freepik.com/free-photo/top-view-blue-monday-concept-composition-with-telephone_23-2149139103.jpg);
+    background-size: cover;
+  }
+  .contact_content{
+    text-align: center;
+  }
+  .contact_content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #1d2b5a;
+  }
+  .contact_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+  }
+  .contact_container .contact_info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact_container .contact_info .box{
+    padding: 10px ;
+    display: flex;
+  }
+  .contact_container .contact_info .box .icon{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 60px;
+    height: 60px;
+    font-size: 22px;
+    border-radius: 45%;
+  }
+
+  #favourites{
+    padding: 5px;
+    background: #1aeeef;
+    color: #222;
+    font-size: 15.5px;
+    font-weight: 900;
+  }
+  #games{
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+  }
+  #demo{
+    color: white;
+  }

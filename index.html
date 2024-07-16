@@ -15,16 +15,18 @@
     <header>
       <a href="#" id="textlogo">Gamers Hub</a>
       <ul class="navbar">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Games</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gamesdiv">Games</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
       <div class="inputsection">
-        <div id="searchbox">
-          <a href="#"><i class="bx bx-search"></i></a>
-          <input type="text" placeholder="search game" />
-        </div>
+        <form action="submit">
+          <div id="searchbox">
+            <a href="#"><i class="bx bx-search"></i></a>
+            <input type="text" placeholder="search game" />
+          </div>
+        </form>
       </div>
       <div class="togglemenu"></div>
     </header>
@@ -51,7 +53,7 @@
       </div>
     </div>
     <!--About Section-->
-    <div class="about_section">
+    <div class="about_section" id="about">
       <div class="about_content">
         <h2>About</h2>
         <p>
@@ -67,12 +69,72 @@
           natus mollitia ipsam nam nostrum accusantium debitis cumque, fuga
           quisquam porro at non.
         </p>
+      </div>
+      <img
+        src="https://img.freepik.com/premium-photo/illustration-gaming-joystick_800563-4110.jpg"
+        id="imagebanner"
+      />
+    </div>
+    <h3 id="games">Dicover Games</h3>
+    <div id="gamesdiv">
+        
+      <ul id="gameList">
+        <p id="demo"></p>
+      </ul>
+    </div>
+    <!--contact section-->
+    <section id="contact">
+      <div class="contact_content">
+        <h2>Contact Us</h2>
         
       </div>
-      <img src="https://img.freepik.com/premium-photo/illustration-gaming-joystick_800563-4110.jpg" id="imagebanner">
-    </div>
-    <div id="gamesdiv">
-        <ul id="gameList"></ul>
-    </div>
+      <div class="contact_container">
+        <div class="contact_info">
+          <div class="box">
+            <div class="icon"><i class="bx bxs-map"></i></div>
+            <div class="text">
+              <h3>Address</h3>
+              <p>
+                Mavoko,Syokimau<br />
+                Machakos
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class='bx bx-phone-call'></i></div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>0739063529</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class='bx bxs-envelope' ></i></div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>GiftWorld325@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <footer>
+      <div class="footerdetails">
+        <a href="#" id="textlogo">Gamers Hub</a>
+        <p>&copy Charles Gift, 2024 All Rights Reserved</p>
+        <ul>
+          <li>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+          </li>
+          <li><a href="#"></a><i class="bx bxl-tiktok"></i></li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
