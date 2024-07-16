@@ -1,0 +1,115 @@
+
+body {
+    background: #050e2d;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 7px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1b2142;
+    transition: 0.8s;
+  }
+  header #textlogo {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 700;
+  }
+  header .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header ul li {
+    list-style: none;
+    margin: 10px;
+  }
+  header ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5.8px;
+  }
+  header ul li a:hover {
+    background-color: #1aeeef;
+    color: #050e2d;
+    box-shadow: 0 0 10px peru;
+  }
+  header .inputsection #searchbox {
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+  }
+  header .inputsection #searchbox i {
+    font-size: 1.4em;
+    margin: 5px;
+    color: #222;
+  }
+  header .inputsection #searchbox input {
+    outline: none;
+    border: none;
+    font-size: 1em;
+    color: #222;
+  }
+  
+  .banner {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner .container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner .container .content {
+    width: 50%;
+    height: 100%;
+  }
+  .banner .container .content h2 {
+    font-size: 4em;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  .banner .container .content p {
+    font-size: 1em;
+    color: #dbd9d9;
+    letter-spacing: 1px;
+  }
+  .banner .container .content a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid #1aeeef;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 7px;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  .banner .container .content a:hover {
+    background: #1aeeef;
+    border: none;
+  }
+   #imagebanner{
+      width: 600px;
+      height: 700px;
+      border-radius: 200px;
+      
+  }
+  
