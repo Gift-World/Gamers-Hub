@@ -89,6 +89,7 @@ header .inputsection #searchbox input {
   font-size: 4em;
   color: #fff;
   letter-spacing: 1px;
+
 }
 .banner .container .content p {
   font-size: 1em;
@@ -132,6 +133,7 @@ border-radius: 200px;
     font-size: 3em;
     font-weight: 700;
     color: #fff;
+    font-style: italic;
 }
 .about_section .about_content p{
  max-width: 600px;
@@ -149,6 +151,21 @@ border-radius: 200px;
     border-radius: 7px;
     color: #fff;
     letter-spacing: 1px;
+  }
+  #gameList{
+    display: flex;
+    color: #fff;
+  
+  }
+  .card{
+    padding: 10px;
+    
+   
+  }
+  #title{
+    font-weight: 600;
+    font-size: 30px;
+    color: #ec8ff5;
   }
   
 
