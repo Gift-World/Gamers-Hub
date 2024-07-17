@@ -44,6 +44,7 @@ header ul li a:hover {
   background-color: #1aeeef;
   color: #050e2d;
   box-shadow: 0 0 10px peru;
+  transition: 2.5s;
 }
 header .inputsection #searchbox {
   padding: 5px;
@@ -111,6 +112,7 @@ header .inputsection #searchbox input {
   background: #1aeeef;
   border: none;
   color-scheme: #050e2d;
+  transition: 2.5s;
 }
 #imagebanner {
   width: 500px;
@@ -224,6 +226,7 @@ color: #dbd9db;
   footer .footerdetails ul li:hover{
     background: #1aeeef;
     border: none;
+    transition: 2.5s;
   }
   footer .footerdetails ul li a i{
     font-size: 1.5em;
