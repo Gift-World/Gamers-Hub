@@ -311,7 +311,7 @@ footer .footerdetails ul li a i {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+  }
     .inputsection {
       margin-top: 10px;
     }
@@ -330,5 +330,9 @@ footer .footerdetails ul li a i {
       flex-direction: column;
       align-items: flex-start;
     }
-  }
+    .footerdetails {
+        display: flex;
+        flex-direction: column;
+    }
+  
 }
