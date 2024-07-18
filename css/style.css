@@ -1,4 +1,4 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Oswald:wght@200..700&family=Signika+Negative:wght@300..700&display=swap');* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -86,6 +86,13 @@ header .inputsection #searchbox input {
   justify-content: center;
   align-items: center;
 }
+.content h2{
+    font-family: "Ga Maamli", sans-serif;
+}
+
+    
+    
+
 .banner .container .content {
   width: 50%;
   height: 100%;
@@ -96,9 +103,10 @@ header .inputsection #searchbox input {
   letter-spacing: 1px;
 }
 .banner .container .content p {
-  font-size: 1em;
+  font-size: 1.5em;
   color: #dbd9d9;
   letter-spacing: 1px;
+  font-family: "Oswald", sans-serif;
 }
 #imagelogo {
   height: 50px;
@@ -151,11 +159,17 @@ header .inputsection #searchbox input {
   font-weight: 700;
   color: #fff;
   font-style: italic;
+  font-family: "Signika Negative", sans-serif;
 }
 .about_section .about_content p {
   max-width: 600px;
   text-align: justify;
   color: #dbd9d9;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.4em;
+}
+#games{
+    font-family: "Signika Negative", sans-serif;
 }
 .about_section .about_content a {
   display: inline-block;
@@ -334,5 +348,7 @@ footer .footerdetails ul li a i {
         display: flex;
         flex-direction: column;
     }
+   
+
   
 }
