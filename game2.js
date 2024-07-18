@@ -1,4 +1,4 @@
-const gamesUrl = "https://gamers-backend.vercel.app/games";
+const gamesUrl = "http://localhost:3000/games";
 function renderOneGame(game) {
   let card = document.createElement("li");
   card.className = "card";
@@ -54,9 +54,8 @@ function renderOneGame(game) {
   btn.addEventListener("click", handleAddToFavouritesButton);
 }
 
-
 function renderAllGames() {
-  fetch("https://gamers-backend.vercel.app/games")
+  fetch("http://localhost:3000/games")
     .then((res) => res.json())
     .then((gameData) => gameData.forEach((game) => renderOneGame(game)));
 }
