@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", () => {
 const gamesUrl = "https://gamers-backend.vercel.app/games";
 function renderOneGame(game) {
   let card = document.createElement("li");
@@ -20,28 +21,24 @@ function renderOneGame(game) {
       `;
 
   document.querySelector("#gameList").appendChild(card);
-  let titleGame = card.querySelector("#detailsbox")
+  let titleGame = card.querySelector("#detailsbox");
   function handleMouseOut(e) {
     titleGame = e.currentTarget;
     if (titleGame) {
-        titleGame.style.backgroundColor = "";
-    }  
+      titleGame.style.backgroundColor = "";
+    }
   }
-  
-  ;
+
   function handleMouseOver(e) {
     titleGame = e.currentTarget;
     if (titleGame) {
-        titleGame.style.backgroundColor = "#1aeeef";
-        titleGame.style.transition = "2.5s";
-    }  
+      titleGame.style.backgroundColor = "#1aeeef";
+      titleGame.style.transition = "2.5s";
+    }
   }
-  
-  
-  
-  
+
   titleGame.addEventListener("mouseover", handleMouseOver);
-  titleGame.addEventListener("mouseout", handleMouseOut)
+  titleGame.addEventListener("mouseout", handleMouseOut);
 
   let btn = card.querySelector("#favourites");
   function handleAddToFavouritesButton(e) {
@@ -54,7 +51,6 @@ function renderOneGame(game) {
   btn.addEventListener("click", handleAddToFavouritesButton);
 }
 
-
 function renderAllGames() {
   fetch("https://gamers-backend.vercel.app/games")
     .then((res) => res.json())
@@ -65,3 +61,4 @@ function initialize() {
 }
 
 initialize();
+})
